@@ -1,0 +1,21 @@
+{
+  "feature_columns": [
+    "prior_website_visits",
+    "prior_email_engagement_count",
+    "total_engagement",
+    "engagement_ratio",
+    "channel",
+    "product_interest"
+  ],
+  "target": "converted_30d",
+  "decision_threshold": 0.3,
+  "metrics": {
+    "model": "TunedLogisticRegression",
+    "accuracy": 0.9997199663959675,
+    "precision": 0.9993386243386243,
+    "recall": 1.0,
+    "f1": 0.9996692027786966,
+    "roc_auc": 0.9999675518688196,
+    "pr_auc": 0.9999542617783752
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "feature_columns": [
+    "planned_budget_inr",
+    "planned_duration_days",
+    "planned_audience_size",
+    "offer_discount_pct",
+    "budget_per_day",
+    "audience_per_budget",
+    "channel"
+  ],
+  "target": "revenue_inr",
+  "metrics": {
+    "model": "FinalTunedModel",
+    "MAE": 7286.302577287864,
+    "RMSE": 9124.627072199739,
+    "R2": 0.9989791793181974
+  }
+}
